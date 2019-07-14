@@ -52,16 +52,16 @@ class Toast extends Component {
         marginTop: 0,
     }
 
-    static propTypes = {
-        style: View.propTypes.style,
-        textStyle: Text.propTypes.style,
-        spacing: PropTypes.number,
-        position: PropTypes.oneOf([gravity.top, gravity.bottom, gravity.center,]),
-        duration: PropTypes.number,
-        animatedDuration: PropTypes.number,
-        delay: PropTypes.number,
-        marginTop: PropTypes.number,
-    }
+    // static propTypes = {
+    //     style: View.propTypes.style,
+    //     textStyle: Text.propTypes.style,
+    //     spacing: PropTypes.number,
+    //     position: PropTypes.oneOf([gravity.top, gravity.bottom, gravity.center,]),
+    //     duration: PropTypes.number,
+    //     animatedDuration: PropTypes.number,
+    //     delay: PropTypes.number,
+    //     marginTop: PropTypes.number,
+    // }
 
     constructor(props) {
         super(props)
